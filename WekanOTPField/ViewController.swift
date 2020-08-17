@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     
     func configurePinView() {
-//        pinView.pinLength = 6
+        pinView.pinLength = 4
         pinView.secureCharacter = "\u{25CF}"
         pinView.interSpace = 10
         pinView.textColor = UIColor.darkText
@@ -41,8 +41,6 @@ class ViewController: UIViewController {
         pinView.fieldCornerRadius = 15
         pinView.activeFieldCornerRadius = 15
         pinView.placeholder = "******"
-//        pinView.deleteButtonAction = .deleteCurrentAndMoveToPrevious
-//        pinView.keyboardAppearance = .default
         pinView.tintColor = .white
         pinView.becomeFirstResponderAtIndex = 0
         pinView.shouldDismissKeyboardOnEmptyFirstField = false
