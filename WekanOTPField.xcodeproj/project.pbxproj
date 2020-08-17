@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08746EA324E46AE000B10E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08746EA224E46AE000B10E0B /* AppDelegate.swift */; };
+		08746EA724E46AE000B10E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08746EA624E46AE000B10E0B /* ViewController.swift */; };
+		08746EAA24E46AE000B10E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08746EA824E46AE000B10E0B /* Main.storyboard */; };
+		08746EAC24E46AE300B10E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08746EAB24E46AE300B10E0B /* Assets.xcassets */; };
+		08746EAF24E46AE300B10E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08746EAD24E46AE300B10E0B /* LaunchScreen.storyboard */; };
+		75C2738BCB75D635AF2345B8 /* Pods_WekanOTPField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F456CCA2587C637CD168F5 /* Pods_WekanOTPField.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08746E9F24E46AE000B10E0B /* WekanOTPField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WekanOTPField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08746EA224E46AE000B10E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08746EA624E46AE000B10E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08746EA924E46AE000B10E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08746EAB24E46AE300B10E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08746EAE24E46AE300B10E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08746EB024E46AE300B10E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B1951FE5D9BE29F0F668FD /* Pods-WekanOTPField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WekanOTPField.debug.xcconfig"; path = "Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D9F081D7DABFD3C64DF5C4 /* Pods-WekanOTPField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WekanOTPField.release.xcconfig"; path = "Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField.release.xcconfig"; sourceTree = "<group>"; };
+		D8F456CCA2587C637CD168F5 /* Pods_WekanOTPField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WekanOTPField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08746E9C24E46AE000B10E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C2738BCB75D635AF2345B8 /* Pods_WekanOTPField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0530384142C8A7E4EB66404F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B1951FE5D9BE29F0F668FD /* Pods-WekanOTPField.debug.xcconfig */,
+				B5D9F081D7DABFD3C64DF5C4 /* Pods-WekanOTPField.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		08746E9624E46AE000B10E0B = {
+			isa = PBXGroup;
+			children = (
+				08746EA124E46AE000B10E0B /* WekanOTPField */,
+				08746EA024E46AE000B10E0B /* Products */,
+				0530384142C8A7E4EB66404F /* Pods */,
+				E61C78183382D0C7D659CF80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08746EA024E46AE000B10E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08746E9F24E46AE000B10E0B /* WekanOTPField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08746EA124E46AE000B10E0B /* WekanOTPField */ = {
+			isa = PBXGroup;
+			children = (
+				08746EA224E46AE000B10E0B /* AppDelegate.swift */,
+				08746EA624E46AE000B10E0B /* ViewController.swift */,
+				08746EA824E46AE000B10E0B /* Main.storyboard */,
+				08746EAB24E46AE300B10E0B /* Assets.xcassets */,
+				08746EAD24E46AE300B10E0B /* LaunchScreen.storyboard */,
+				08746EB024E46AE300B10E0B /* Info.plist */,
+			);
+			path = WekanOTPField;
+			sourceTree = "<group>";
+		};
+		E61C78183382D0C7D659CF80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F456CCA2587C637CD168F5 /* Pods_WekanOTPField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08746E9E24E46AE000B10E0B /* WekanOTPField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08746EB324E46AE300B10E0B /* Build configuration list for PBXNativeTarget "WekanOTPField" */;
+			buildPhases = (
+				B5182486104A8D0EC0E181CC /* [CP] Check Pods Manifest.lock */,
+				08746E9B24E46AE000B10E0B /* Sources */,
+				08746E9C24E46AE000B10E0B /* Frameworks */,
+				08746E9D24E46AE000B10E0B /* Resources */,
+				5435CA2F55DB18CF8850A2D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WekanOTPField;
+			productName = WekanOTPField;
+			productReference = 08746E9F24E46AE000B10E0B /* WekanOTPField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08746E9724E46AE000B10E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Wekan;
+				TargetAttributes = {
+					08746E9E24E46AE000B10E0B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 08746E9A24E46AE000B10E0B /* Build configuration list for PBXProject "WekanOTPField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08746E9624E46AE000B10E0B;
+			productRefGroup = 08746EA024E46AE000B10E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08746E9E24E46AE000B10E0B /* WekanOTPField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08746E9D24E46AE000B10E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08746EAF24E46AE300B10E0B /* LaunchScreen.storyboard in Resources */,
+				08746EAC24E46AE300B10E0B /* Assets.xcassets in Resources */,
+				08746EAA24E46AE000B10E0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5435CA2F55DB18CF8850A2D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5182486104A8D0EC0E181CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WekanOTPField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08746E9B24E46AE000B10E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08746EA724E46AE000B10E0B /* ViewController.swift in Sources */,
+				08746EA324E46AE000B10E0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08746EA824E46AE000B10E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08746EA924E46AE000B10E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08746EAD24E46AE300B10E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08746EAE24E46AE300B10E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08746EB124E46AE300B10E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08746EB224E46AE300B10E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08746EB424E46AE300B10E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B1951FE5D9BE29F0F668FD /* Pods-WekanOTPField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H972GMBYZ9;
+				INFOPLIST_FILE = WekanOTPField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wekancode.WekanOTPField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08746EB524E46AE300B10E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D9F081D7DABFD3C64DF5C4 /* Pods-WekanOTPField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H972GMBYZ9;
+				INFOPLIST_FILE = WekanOTPField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wekancode.WekanOTPField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08746E9A24E46AE000B10E0B /* Build configuration list for PBXProject "WekanOTPField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08746EB124E46AE300B10E0B /* Debug */,
+				08746EB224E46AE300B10E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08746EB324E46AE300B10E0B /* Build configuration list for PBXNativeTarget "WekanOTPField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08746EB424E46AE300B10E0B /* Debug */,
+				08746EB524E46AE300B10E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08746E9724E46AE000B10E0B /* Project object */;
+}

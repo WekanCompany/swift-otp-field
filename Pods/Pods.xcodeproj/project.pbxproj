@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE9882955D52F7AF8E9BCABEB0A2EB2 /* SVPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085E27203C71936B914D77F246694A05 /* SVPinView.xib */; };
+		36345FDDF4CEBC4EE794B01503DDFAF9 /* SVPinView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4682FEB46B881B319B492735A7769EFD /* SVPinView-dummy.m */; };
+		3925C6A389E51BA66643924DC8802B26 /* Pods-WekanOTPField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 565BD1492C696F3AC589F5B4D400933F /* Pods-WekanOTPField-dummy.m */; };
+		43D66B48A1D53DAC4189C5271870D56F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		44552A82D861FD9717717BA42915EB8D /* Pods-WekanOTPField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ED31B5DCF18CF828D85DE279DC2958 /* Pods-WekanOTPField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		801144A07FFDEE5232AECC693005BC0B /* SVPinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC965A90C469DD4AE83B0FB62F3F74C /* SVPinCell.xib */; };
+		87D894A18490A787808973AC84AA3FF8 /* SVPinView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A35E92FB2A239E63D441E66E531533 /* SVPinView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE56FAF1E7DF36A9915DA6E25F937DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AC5844840F7CAEEC0C6F18980D8E62CF /* SVPinField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDE3B0096AD7DE190B856F05B98D80 /* SVPinField.swift */; };
+		DC909D9C1B8D2BBB9465DCFC8EACD698 /* SVPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B43DF7928535A1CDFBC8B31C96CE262 /* SVPinView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7465343B5F7DF15D3671598AFA380DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C48B6722F02A3772707DAF5E1572C89;
+			remoteInfo = SVPinView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085E27203C71936B914D77F246694A05 /* SVPinView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SVPinView.xib; path = "SVPinView/Source/XIB's/SVPinView.xib"; sourceTree = "<group>"; };
+		0B632C8841E63AF83BC174DEEC68F1F5 /* Pods-WekanOTPField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WekanOTPField-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C7E50D986FF66075D7D3BB6E869FD41 /* Pods-WekanOTPField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WekanOTPField.modulemap"; sourceTree = "<group>"; };
+		11EA81E2ABBB1FAAB1B2323ED6104A68 /* SVPinView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVPinView.framework; path = SVPinView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ED31B5DCF18CF828D85DE279DC2958 /* Pods-WekanOTPField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WekanOTPField-umbrella.h"; sourceTree = "<group>"; };
+		1B43DF7928535A1CDFBC8B31C96CE262 /* SVPinView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVPinView.swift; path = SVPinView/Source/Classes/SVPinView.swift; sourceTree = "<group>"; };
+		1B7B6E38C3319388020ABEC9D5805F6C /* SVPinView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVPinView.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4682FEB46B881B319B492735A7769EFD /* SVPinView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVPinView-dummy.m"; sourceTree = "<group>"; };
+		52214191332354C5B7BC6DBE6C47A344 /* SVPinView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVPinView-Info.plist"; sourceTree = "<group>"; };
+		565BD1492C696F3AC589F5B4D400933F /* Pods-WekanOTPField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WekanOTPField-dummy.m"; sourceTree = "<group>"; };
+		59A7887757A129C54736AEFE3DCD5307 /* Pods-WekanOTPField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WekanOTPField.debug.xcconfig"; sourceTree = "<group>"; };
+		67572A80826530A643C7C69308E5D071 /* SVPinView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVPinView.debug.xcconfig; sourceTree = "<group>"; };
+		70CAD138E4033F023E1F39A47FE5ADA6 /* Pods-WekanOTPField-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WekanOTPField-frameworks.sh"; sourceTree = "<group>"; };
+		9CC965A90C469DD4AE83B0FB62F3F74C /* SVPinCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SVPinCell.xib; path = "SVPinView/Source/XIB's/SVPinCell.xib"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FD6922838F654C411A7B09EBE1D80A /* SVPinView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVPinView.modulemap; sourceTree = "<group>"; };
+		A8CDE3B0096AD7DE190B856F05B98D80 /* SVPinField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVPinField.swift; path = SVPinView/Source/Classes/SVPinField.swift; sourceTree = "<group>"; };
+		C239041DDDA4311EA94CC7D2CB5CE71C /* Pods-WekanOTPField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WekanOTPField-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C40E8F2F1F1F2C5D3BDFEDE126E1E2BE /* Pods_WekanOTPField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WekanOTPField.framework; path = "Pods-WekanOTPField.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA0F948C4EAB6048EDA8AB0FDBAC8B5 /* Pods-WekanOTPField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WekanOTPField.release.xcconfig"; sourceTree = "<group>"; };
+		D2A35E92FB2A239E63D441E66E531533 /* SVPinView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVPinView-umbrella.h"; sourceTree = "<group>"; };
+		FB100976D655875112248068587AF2E5 /* SVPinView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVPinView-prefix.pch"; sourceTree = "<group>"; };
+		FBDA6C6D1DF8C0F46E2A23403E799DD3 /* Pods-WekanOTPField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WekanOTPField-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB441BA8C8761C4B87EA0A535F8A39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE56FAF1E7DF36A9915DA6E25F937DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C180CCD19A5459565173759C282CB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D66B48A1D53DAC4189C5271870D56F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CD5F3440601383904C96E6331EE4F31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CC965A90C469DD4AE83B0FB62F3F74C /* SVPinCell.xib */,
+				085E27203C71936B914D77F246694A05 /* SVPinView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		60023EEF5A821B8D976456B71491B6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCBE436067738C5B91F85F01EF4D03C1 /* SVPinView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		898BECB212980CC6FD021A3E5C3BD3D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89F43C28C67DC1181A73BA92E27B9C1 /* Pods-WekanOTPField */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCBE436067738C5B91F85F01EF4D03C1 /* SVPinView */ = {
+			isa = PBXGroup;
+			children = (
+				A8CDE3B0096AD7DE190B856F05B98D80 /* SVPinField.swift */,
+				1B43DF7928535A1CDFBC8B31C96CE262 /* SVPinView.swift */,
+				3CD5F3440601383904C96E6331EE4F31 /* Resources */,
+				D9EA79DEF854E295E981F50EF71E08DE /* Support Files */,
+			);
+			name = SVPinView;
+			path = SVPinView;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C72706876DA65571D6EDCF772992F290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40E8F2F1F1F2C5D3BDFEDE126E1E2BE /* Pods_WekanOTPField.framework */,
+				11EA81E2ABBB1FAAB1B2323ED6104A68 /* SVPinView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				60023EEF5A821B8D976456B71491B6A8 /* Pods */,
+				C72706876DA65571D6EDCF772992F290 /* Products */,
+				898BECB212980CC6FD021A3E5C3BD3D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89F43C28C67DC1181A73BA92E27B9C1 /* Pods-WekanOTPField */ = {
+			isa = PBXGroup;
+			children = (
+				0C7E50D986FF66075D7D3BB6E869FD41 /* Pods-WekanOTPField.modulemap */,
+				C239041DDDA4311EA94CC7D2CB5CE71C /* Pods-WekanOTPField-acknowledgements.markdown */,
+				0B632C8841E63AF83BC174DEEC68F1F5 /* Pods-WekanOTPField-acknowledgements.plist */,
+				565BD1492C696F3AC589F5B4D400933F /* Pods-WekanOTPField-dummy.m */,
+				70CAD138E4033F023E1F39A47FE5ADA6 /* Pods-WekanOTPField-frameworks.sh */,
+				FBDA6C6D1DF8C0F46E2A23403E799DD3 /* Pods-WekanOTPField-Info.plist */,
+				14ED31B5DCF18CF828D85DE279DC2958 /* Pods-WekanOTPField-umbrella.h */,
+				59A7887757A129C54736AEFE3DCD5307 /* Pods-WekanOTPField.debug.xcconfig */,
+				CEA0F948C4EAB6048EDA8AB0FDBAC8B5 /* Pods-WekanOTPField.release.xcconfig */,
+			);
+			name = "Pods-WekanOTPField";
+			path = "Target Support Files/Pods-WekanOTPField";
+			sourceTree = "<group>";
+		};
+		D9EA79DEF854E295E981F50EF71E08DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD6922838F654C411A7B09EBE1D80A /* SVPinView.modulemap */,
+				4682FEB46B881B319B492735A7769EFD /* SVPinView-dummy.m */,
+				52214191332354C5B7BC6DBE6C47A344 /* SVPinView-Info.plist */,
+				FB100976D655875112248068587AF2E5 /* SVPinView-prefix.pch */,
+				D2A35E92FB2A239E63D441E66E531533 /* SVPinView-umbrella.h */,
+				67572A80826530A643C7C69308E5D071 /* SVPinView.debug.xcconfig */,
+				1B7B6E38C3319388020ABEC9D5805F6C /* SVPinView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVPinView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10BEE5ECB63C4242C04D0693BE1CF167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44552A82D861FD9717717BA42915EB8D /* Pods-WekanOTPField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354F7338DDABD47B2D387C2F88F3FA8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D894A18490A787808973AC84AA3FF8 /* SVPinView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C55CD2702F497F32EF467A14C60B607 /* Pods-WekanOTPField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D9087A6628B09708AF7F272EB9F714 /* Build configuration list for PBXNativeTarget "Pods-WekanOTPField" */;
+			buildPhases = (
+				10BEE5ECB63C4242C04D0693BE1CF167 /* Headers */,
+				9A57165820CC63210A9FCB58A0E3A642 /* Sources */,
+				5C180CCD19A5459565173759C282CB71 /* Frameworks */,
+				82D4A24076531E59044CEF676B7EF8BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2503A6CEA2B5233300DF6709C23AD6A /* PBXTargetDependency */,
+			);
+			name = "Pods-WekanOTPField";
+			productName = "Pods-WekanOTPField";
+			productReference = C40E8F2F1F1F2C5D3BDFEDE126E1E2BE /* Pods_WekanOTPField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C48B6722F02A3772707DAF5E1572C89 /* SVPinView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E8BCAA6594A5FEE890E98E2D0EEC45 /* Build configuration list for PBXNativeTarget "SVPinView" */;
+			buildPhases = (
+				354F7338DDABD47B2D387C2F88F3FA8F /* Headers */,
+				374BB9944936DDEEC2136F69115E293C /* Sources */,
+				2DB441BA8C8761C4B87EA0A535F8A39D /* Frameworks */,
+				AAA97D7BCE3414AC8D043B2321CFE942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVPinView;
+			productName = SVPinView;
+			productReference = 11EA81E2ABBB1FAAB1B2323ED6104A68 /* SVPinView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C72706876DA65571D6EDCF772992F290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C55CD2702F497F32EF467A14C60B607 /* Pods-WekanOTPField */,
+				8C48B6722F02A3772707DAF5E1572C89 /* SVPinView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D4A24076531E59044CEF676B7EF8BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA97D7BCE3414AC8D043B2321CFE942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801144A07FFDEE5232AECC693005BC0B /* SVPinCell.xib in Resources */,
+				0CE9882955D52F7AF8E9BCABEB0A2EB2 /* SVPinView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374BB9944936DDEEC2136F69115E293C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5844840F7CAEEC0C6F18980D8E62CF /* SVPinField.swift in Sources */,
+				36345FDDF4CEBC4EE794B01503DDFAF9 /* SVPinView-dummy.m in Sources */,
+				DC909D9C1B8D2BBB9465DCFC8EACD698 /* SVPinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A57165820CC63210A9FCB58A0E3A642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3925C6A389E51BA66643924DC8802B26 /* Pods-WekanOTPField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2503A6CEA2B5233300DF6709C23AD6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVPinView;
+			target = 8C48B6722F02A3772707DAF5E1572C89 /* SVPinView */;
+			targetProxy = C7465343B5F7DF15D3671598AFA380DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE8DD416A6A303B5CA761BD774F7A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA0F948C4EAB6048EDA8AB0FDBAC8B5 /* Pods-WekanOTPField.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33B7F58592FEE08D8CE46A87374771E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A7887757A129C54736AEFE3DCD5307 /* Pods-WekanOTPField.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WekanOTPField/Pods-WekanOTPField.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7BFAE73FF57C5CC36EE58E91E466FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67572A80826530A643C7C69308E5D071 /* SVPinView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVPinView/SVPinView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVPinView/SVPinView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVPinView/SVPinView.modulemap";
+				PRODUCT_MODULE_NAME = SVPinView;
+				PRODUCT_NAME = SVPinView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D514D8D85E199C988E28FE8DED282E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7B6E38C3319388020ABEC9D5805F6C /* SVPinView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVPinView/SVPinView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVPinView/SVPinView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVPinView/SVPinView.modulemap";
+				PRODUCT_MODULE_NAME = SVPinView;
+				PRODUCT_NAME = SVPinView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D9087A6628B09708AF7F272EB9F714 /* Build configuration list for PBXNativeTarget "Pods-WekanOTPField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B7F58592FEE08D8CE46A87374771E4 /* Debug */,
+				0BE8DD416A6A303B5CA761BD774F7A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E8BCAA6594A5FEE890E98E2D0EEC45 /* Build configuration list for PBXNativeTarget "SVPinView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BFAE73FF57C5CC36EE58E91E466FBA /* Debug */,
+				D514D8D85E199C988E28FE8DED282E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
